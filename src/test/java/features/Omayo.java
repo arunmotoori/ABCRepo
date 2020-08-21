@@ -23,6 +23,7 @@ public class Omayo {
 	public void I_navigate_to_application_URL() {
 		System.out.println("Updated for first time");
 		System.out.println("Second commit purpose");
+		System.out.println("Third line added");
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
